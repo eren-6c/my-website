@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EREN XITERS - Gaming Tools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="min-h-screen text-white flex flex-col justify-center items-center">
+    <div id="particles-js"></div>
+    <nav
+        class="navbar-glass fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-[95vw] max-w-3xl flex items-center justify-between px-6 py-3 rounded-2xl">
+        <span class="font-extrabold text-xl text-gradient">EREN XITERS</span>
+        <button class="navbar-toggle block md:hidden ml-2" aria-label="Open Menu" onclick="document.getElementById('navbar-menu').classList.toggle('hidden')">
+            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+        <ul id="navbar-menu" class="flex gap-6 font-semibold text-base md:flex md:static md:flex-row md:gap-6 md:bg-transparent md:shadow-none md:p-0 md:w-auto md:rounded-none absolute top-14 left-0 w-full bg-[rgba(15,23,42,0.97)] shadow-lg p-6 rounded-2xl hidden md:block transition-all z-40">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="index.html#download" class="nav-link">Download</a></li>
+            <li><a href="index.html#pricing" class="nav-link">Pricing</a></li>
+            <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            <li><a href="buy-premium.html" class="nav-link">Premium</a></li>
+        </ul>
+    </nav>
+    <div class="flex-1 flex flex-col justify-center items-center w-full pt-28">
+        <div class="text-center mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold text-center mb-2 text-gradient" style="letter-spacing: 0.02em;">
+                EREN XITERS</h1>
+            <p class="text-center text-gray-300 mb-8 text-lg font-medium">Unlock the Future. One Tool. Two Paths.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-4xl px-4">
+            <!-- Download Card -->
+            <div class="glass-card p-8 rounded-2xl">
+                <div class="mb-6">
+                    <h2 class="text-xl font-semibold text-white mb-4">Download the Tool</h2>
+                    <div class="space-y-4">
+                        <button class="win11-button w-full py-3 rounded-lg text-lg font-semibold transition-all flex items-center justify-center gap-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                            </svg>
+                            Download Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Access Card -->
+            <div class="glass-card p-8 rounded-2xl">
+                <div>
+                    <h2 class="text-xl font-semibold text-white mb-4">Choose Your Access</h2>
+                    <div class="space-y-4">
+                        <button class="win11-button w-full py-3 rounded-lg text-lg font-semibold transition-all flex items-center justify-center gap-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                            </svg>
+                            Get Free Access (Limited)
+                        </button>
+                        <a href="buy-premium.html" class="block w-full">
+                            <button class="win11-button premium-button w-full py-3 rounded-lg text-lg font-semibold transition-all flex items-center justify-center gap-2">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                Buy Premium Access
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="mt-10 text-gray-500 text-sm text-center w-full">
+            &copy; 2023 EREN XITERS. All Rights Reserved.
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>"
